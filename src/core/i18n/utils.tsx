@@ -6,7 +6,7 @@ import { NativeModules } from 'react-native';
 import { I18nManager } from 'react-native';
 import { useMMKVString } from 'react-native-mmkv';
 
-import { storage } from '../utils';
+import { storage } from '../storage';
 import type { resources } from './resources';
 import type { Language, RecursiveKeyOf } from './types';
 
